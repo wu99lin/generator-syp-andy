@@ -35,9 +35,17 @@ var SypAndyGenerator = yeoman.generators.Base.extend({
 
   askFor: function () {
     var done = this.async();
+    console.log(chalk.red('\n' +
+        ' _     _   ___   __  _____  ____  ___       __  _____   __    __    _    \n' +
+        'yo Android base framework\n'+
+        '吴至林（善因平）\n'
+      ));
 
+    console.log('\nWelcome to the SypAndy Generator\n');
     // say hello Yo!
-    this.log(yosay(this._randomQuote()));
+    this.log(yosay(
+        'Yo Android Generator SypAndy\n'+ '中国项目的AndroidApp\n'+ '吴至林（善因平）整理\n'+ 'OK SypAndy! Generate this app!'
+    ));
 
     var prompts = [
       {
@@ -236,12 +244,18 @@ var SypAndyGenerator = yeoman.generators.Base.extend({
 
   _randomQuote: function() {
     var quotes = [
-      'Yo! Android generator to the rescue! Take for some relax and enjoy life :D!',
-      'OK Andy! Generate this app!',
-      'Yo! Support this piece of art! http://bit.ly/1fLq5M2',
-      'Andy… what are you doing? Please come back! http://bit.ly/1uZboLb'
+      '\n' +
+      ' _     _   ___   __  _____  ____  __   |\n' +
+      ' |      Yo Android Generator SypAndy   |\n'+
+      ' |      适合中国项目的AndroidApp       |\n'+
+      ' |      吴至林（善因平）整理           |\n'+
+      ' |      OK SypAndy! Generate this app! |\n'+
+      ' _     _   ___   __  _____  ____  __   |\n'
     ];
-    return quotes[Math.floor(Math.random() * quotes.length)];
+    console.log('\nWelcome to the SypAndy Generator\n');
+    // say hello Yo!
+
+    return quotes[0];
   },
 
   _mkdirs: function(path, dirs, append) {
