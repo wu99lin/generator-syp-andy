@@ -2,188 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7348f28-8490-4f2c-8a77-6b891b85a263" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/utils/FieldUtils.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/utils/FileUtils.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-xxhdpi/main_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-xxhdpi/main_head.png" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-xxhdpi/main_maron_bg.png" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-xxhdpi/splash_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/titlebar_add.png" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/titlebar_back.png" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/titlebar_bg.png" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/titlebar_delete.png" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/titlebar_done.png" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/titlebar_edit.png" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/titlebar_star.png" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/titlebar_unstar.png" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/widget/AdapterHolder.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/widget/AnimatorProxy.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/ui/AnnotateUtil.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/ui/BindView.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/bitmap/BitmapCallBack.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/bitmap/BitmapConfig.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/bitmap/BitmapCreate.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/bitmap/BitmapHelper.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/bitmap/BitmapMemoryCache.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/ByteArrayPool.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/Cache.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/CacheDispatcher.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/utils/CipherUtils.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/utils/ClassUtils.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/CursorHelper.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/DaoConfig.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/DbModel.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/Delivery.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/DeliveryExecutor.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/DeliveryResponse.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/utils/DensityUtils.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/DiskCache.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/bitmap/DiskImageRequest.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/DownloadController.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/DownloadTaskQueue.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/FileRequest.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/FormRequest.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/ui/FrameActivity.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/ui/FrameFragment.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/HttpCallBack.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/HttpClientStack.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/HttpConfig.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/HttpConnectStack.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/HttpHeaderParser.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/HttpParams.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/HttpStack.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/HttpUtils.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/ui/I_BroadcastReg.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/ui/I_KJActivity.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/ui/I_SkipActivity.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/annotate/Id.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/utils/Id.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/bitmap/ImageDisplayer.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/bitmap/ImageRequest.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/JsonRequest.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/KJActivity.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/ui/KJActivityStack.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/widget/KJAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/KJAsyncTask.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/KJBitmap.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/utils/KJConfig.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/KJDB.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/ui/KJFragment.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/KJFrame.iml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/KJHttp.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/KJHttpException.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/utils/KJLoger.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/widget/KJScrollView.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/widget/KJSlidingMenu.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/widget/KJViewPager.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/utils/KeyValue.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/utils/MD5.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/annotate/ManyToOne.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/utils/ManyToOne.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/ManyToOneLazyLoader.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/bitmap/MemoryLruCache.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/Network.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/NetworkDispatcher.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/NetworkResponse.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/annotate/OneToMany.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/utils/OneToMany.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/OneToManyLazyLoader.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/PoolingByteArrayOutputStream.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/utils/PreferenceHelper.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/annotate/Property.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/utils/Property.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/Request.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/http/Response.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/widget/RoundImageView.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/widget/ScaleImageView.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/SqlBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/SqlInfo.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/utils/StringUtils.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/ui/SupportFragment.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/utils/SystemTool.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/annotate/Table.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/utils/TableInfo.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/database/annotate/Transient.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/widget/ViewHelper.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/ui/ViewInject.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/src/main/java/org/kymjs/kjframe/utils/ViewUtils.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/dobmenu/_AnimationExecutor.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/_AppConfig.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/_AppContext.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/_AppStart.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/fragment/_BlankFragment.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/fragment/_BlogFragment.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/_Browser.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/_CollapsibleTextView.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/service/_CommonService.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/_CrashHandler.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/dobmenu/_CurtainItem.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/dobmenu/_CurtainView.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/dobmenu/_CurtainViewController.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/_EmptyLayout.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/fragment/_FindFragment.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/listview/_FooterLoadingLayout.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/listview/_HeaderLoadingLayout.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/listview/_ILoadingLayout.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/listview/_IPullToRefresh.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/utils/_KJAnimations.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/_KJDragGridView.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/_KJScrollView.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/listview/_LoadingLayout.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/utils/_MailSenderInfo.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/_Main.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/fragment/_MineFragment.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/utils/_MyAuthenticator.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/utils/_Parser.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/utils/_PullTip.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/listview/_PullToRefreshBase.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/listview/_PullToRefreshList.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/_RecordButton.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/_RecordButtonUtil.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/_ShapeHolder.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/_SimpleBackActivity.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/domain/_SimpleBackPage.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/utils/_SimpleMailSender.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/_Splash.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/utils/_TimeUtils.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/_TitleBarActivity.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/fragment/_TitleBarFragment.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/utils/_UIHelper.java" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/anim/anim_bottom_in.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/anim/anim_bottom_out.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/app_start.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/values/attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/aty_browser.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/aty_main.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/anim/audio_animations.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/dob_sliding_menu.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/frag_blog.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/frag_blog_detail.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/frag_find.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/frag_mine.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/fragment_blank.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.idea/generator-syp-andy.iml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.idea/libraries/generator_andy_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/main_bottombar.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/main_titlebar.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/values/picture_dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/proguard-android.txt" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/libraries/KJFrame/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/anim/pull_arrow_down.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/anim/pull_arrow_up.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/values/pull_refresh_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/anim/splash_start.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-xxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/README.md" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_build.app.gradle" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_build.root.gradle" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_settings.gradle" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/config.gradle" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/values/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/gitignore" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/gradle.properties" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/gradlew.bat" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/gradlew" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/index.js" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/menu/main.xml" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/package.json" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/proguard-rules.pro" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/test/test-creation.js" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/test/test-load.js" />
+      <change type="MODIFICATION" beforePath="F:/ionic/generator-syp-andy/.idea/workspace.xml" afterPath="F:/ionic/generator-syp-andy/.idea/workspace.xml" />
     </list>
     <ignored path="generator-andy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -207,6 +59,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="F:/ionic/generator-andy" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -257,7 +110,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
+    <option name="x" value="-2" />
     <option name="width" value="1378" />
     <option name="height" value="728" />
   </component>
@@ -295,60 +148,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="generator-syp-andy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generator-syp-andy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generator-syp-andy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generator-syp-andy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generator-syp-andy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generator-syp-andy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generator-syp-andy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -426,12 +225,20 @@
       <option name="number" value="Default" />
       <updated>1436063106005</updated>
     </task>
+    <task id="LOCAL-00001" summary="初始提交">
+      <created>1436624321991</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1436624321991</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="0" width="1378" height="728" extended-state="0" />
+    <frame x="-2" y="0" width="1378" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -481,19 +288,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始提交" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_src/domain/_SimpleBackPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.44">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/fragment/_BlankFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.84">
@@ -892,6 +695,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.73544973">
           <caret line="227" column="44" selection-start-line="227" selection-start-column="44" selection-end-line="227" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
