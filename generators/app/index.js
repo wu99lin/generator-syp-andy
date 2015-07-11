@@ -19,12 +19,6 @@ var androidSdkVersionsChoices = [
   return {name: name, value: value + 1};
 });
 
-var supportLibrariesChoices = [
-  {name: 'Support', value: 'supportV4', checked: false},
-  {name: 'AppCompat', value: 'appCompat', checked: false},
-  {name: 'GridLayout', value: 'gridLayout', checked: false},
-  {name: 'MediaRouter', value: 'mediaRouter', checked: false},
-];
 
 var SypAndyGenerator = yeoman.generators.Base.extend({
   constructor: function () {
@@ -35,11 +29,6 @@ var SypAndyGenerator = yeoman.generators.Base.extend({
 
   askFor: function () {
     var done = this.async();
-    console.log(chalk.red('\n' +
-        ' _     _   ___   __  _____  ____  ___       __  _____   __    __    _    \n' +
-        'yo Android base framework\n'+
-        '吴至林（善因平）\n'
-      ));
 
     console.log('\nWelcome to the SypAndy Generator\n');
     // say hello Yo!
@@ -107,25 +96,6 @@ var SypAndyGenerator = yeoman.generators.Base.extend({
             return {name: name, value: value};
           }),
         default: 3 // Holo Light with Dark ActionBar
-      },
-      {
-        name: 'supportLibraries',
-        message: 'Support mode:',
-        type: 'checkbox',
-        choices: supportLibrariesChoices,
-        filter: function(values) {
-          if (!values) {
-            return;
-          }
-          var answers = {};
-          this._.each(supportLibrariesChoices, function(lib) {
-            answers[lib.value] = values.indexOf(lib.value) !== -1;
-          });
-          return {
-            enabled: answers,
-            values: values
-          };
-        }.bind(this)
       }
     ];
 
@@ -242,21 +212,7 @@ var SypAndyGenerator = yeoman.generators.Base.extend({
     this.template('_build.app.gradle', this.moduleName + '/build.gradle');
   },
 
-  _randomQuote: function() {
-    var quotes = [
-      '\n' +
-      ' _     _   ___   __  _____  ____  __   |\n' +
-      ' |      Yo Android Generator SypAndy   |\n'+
-      ' |      适合中国项目的AndroidApp       |\n'+
-      ' |      吴至林（善因平）整理           |\n'+
-      ' |      OK SypAndy! Generate this app! |\n'+
-      ' _     _   ___   __  _____  ____  __   |\n'
-    ];
-    console.log('\nWelcome to the SypAndy Generator\n');
-    // say hello Yo!
 
-    return quotes[0];
-  },
 
   _mkdirs: function(path, dirs, append) {
     append = append ? '/' + append : '';
