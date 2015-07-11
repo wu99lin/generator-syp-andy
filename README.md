@@ -20,7 +20,7 @@ npm install -g generator-syp-andy
 
 ### Installation for Devs
 
-As Andy is a Yeoman plugin, it's mandatory to install first Yeoman if you didn't do it before:
+As SypAndy is a Yeoman plugin, it's mandatory to install first Yeoman if you didn't do it before:
 
 ```
 $ npm install -g yo

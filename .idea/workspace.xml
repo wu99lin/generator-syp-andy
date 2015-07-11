@@ -2,39 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7348f28-8490-4f2c-8a77-6b891b85a263" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/README.md" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_build.app.gradle" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_build.root.gradle" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/config.gradle" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/gitignore" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/gradle.properties" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/gradlew" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/index.js" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/menu/main.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/package.json" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/test/test-creation.js" />
-      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/test/test-load.js" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/fragment/_MessageFragment.java" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/bottombar_blog_nor.png" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/bottombar_blog_over.png" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/bottombar_find_nor.png" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/bottombar_find_over.png" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/bottombar_message_nor.png" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/bottombar_message_over.png" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/bottombar_mine_nor.png" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable-hdpi/bottombar_mine_over.png" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/fragment_message.xml" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable/selector_bottombar_blog.xml" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable/selector_bottombar_find.xml" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable/selector_bottombar_message.xml" />
+      <change type="NEW" beforePath="" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable/selector_bottombar_mine.xml" />
+      <change type="MODIFICATION" beforePath="F:/ionic/generator-syp-andy/README.md" afterPath="F:/ionic/generator-syp-andy/README.md" />
+      <change type="MODIFICATION" beforePath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/_Main.java" afterPath="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/_Main.java" />
+      <change type="MODIFICATION" beforePath="F:/ionic/generator-syp-andy/generators/app/index.js" afterPath="F:/ionic/generator-syp-andy/generators/app/index.js" />
       <change type="MODIFICATION" beforePath="F:/ionic/generator-syp-andy/.idea/workspace.xml" afterPath="F:/ionic/generator-syp-andy/.idea/workspace.xml" />
     </list>
     <ignored path="generator-andy.iws" />
@@ -55,7 +39,48 @@
     <favorites_list name="generator-andy" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://F:/ionic/generator-syp-andy/generators/app/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="190" column="22" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://F:/ionic/generator-syp-andy/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.78413284">
+              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_start.xml" pinned="false" current-in-tab="false">
+        <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/app_start.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aty_browser.xml" pinned="false" current-in-tab="false">
+        <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/aty_browser.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="F:/ionic/generator-andy" />
@@ -94,11 +119,13 @@
         <option value="F:/ionic/generator-andy/generators/app/index.js" />
         <option value="F:/ionic/generator-andy/package.json" />
         <option value="F:/ionic/generator-syp-andy/generators/app/templates/_AndroidManifest.xml" />
-        <option value="F:/ionic/generator-syp-andy/README.md" />
         <option value="F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/aty_browser.xml" />
         <option value="F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/frag_blog.xml" />
         <option value="F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/frag_find.xml" />
+        <option value="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/_Main.java" />
+        <option value="F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/fragment/_MessageFragment.java" />
         <option value="F:/ionic/generator-syp-andy/generators/app/index.js" />
+        <option value="F:/ionic/generator-syp-andy/README.md" />
       </list>
     </option>
   </component>
@@ -151,6 +178,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator-syp-andy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator-syp-andy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator-syp-andy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator-syp-andy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator-syp-andy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generator-syp-andy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -167,11 +260,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\ionic\generator-andy\generators\app\templates\_res\layout" />
-      <recent name="F:\ionic\generator-andy\generators\app\templates\_res" />
-      <recent name="F:\ionic\generator-andy\generators\app\templates\_src\utils" />
-      <recent name="F:\ionic\generator-andy\generators\app\templates\_src\ui" />
-      <recent name="F:\ionic\generator-andy\generators\app\templates\_src" />
+      <recent name="F:\ionic\generator-syp-andy\generators\app\templates\_res\layout" />
+      <recent name="F:\ionic\generator-syp-andy\generators\app\templates\_src\ui\fragment" />
+      <recent name="F:\ionic\generator-syp-andy\generators\app\templates\_src\ui" />
+      <recent name="F:\ionic\generator-syp-andy\generators\app\templates\_res\drawable" />
+      <recent name="F:\ionic\generator-syp-andy\generators\app\templates\_res\drawable-hdpi" />
     </key>
   </component>
   <component name="RunManager">
@@ -231,7 +324,13 @@
       <option name="project" value="LOCAL" />
       <updated>1436624321991</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始提交">
+      <created>1436625032536</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1436625032536</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -244,7 +343,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2738806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2738806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -297,46 +396,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/fragment/_BlankFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.84">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/fragment/_BlogFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.84">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/fragment/_FindFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.2">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/fragment/_TitleBarFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.31348512">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/fragment/_MineFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22767076">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/widget/listview/_FooterLoadingLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -389,14 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27372262">
           <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/_Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.68430656">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -545,14 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/ionic/generator-syp-andy/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.34">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/ionic/generator-syp-andy/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -599,22 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.0">
           <caret line="2" column="37" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/app_start.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/aty_browser.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="36.0">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -691,18 +718,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/ionic/generator-syp-andy/generators/app/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73544973">
-          <caret line="227" column="44" selection-start-line="227" selection-start-column="44" selection-end-line="227" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_res/drawable/selector_bottombar_blog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/fragment/_MessageFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/fragment_message.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/_Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.276896">
+          <caret line="97" column="18" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_src/ui/fragment/_TitleBarFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66137564">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/app_start.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ionic/generator-syp-andy/generators/app/templates/_res/layout/aty_browser.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ionic/generator-syp-andy/generators/app/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="190" column="22" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ionic/generator-syp-andy/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.78413284">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           <folding />
         </state>
       </provider>

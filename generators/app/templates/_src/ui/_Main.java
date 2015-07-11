@@ -46,10 +46,14 @@ public class Main extends TitleBarActivity {
     private RadioButton mRbtnContent2;
     @BindView(id = R.id.bottombar_content3, click = true)
     private RadioButton mRbtnContent3;
+    @BindView(id = R.id.bottombar_content4, click = true)
+    private RadioButton mRbtnContent4;
 
     private TitleBarFragment contentFragment1;
     private TitleBarFragment contentFragment2;
     private TitleBarFragment contentFragment3;
+    private TitleBarFragment contentFragment4;
+
     private TitleBarFragment currentFragment;
 
     private float titleBarHeight;
@@ -65,7 +69,8 @@ public class Main extends TitleBarActivity {
         super.initData();
         contentFragment1 = new BlogFragment();
         contentFragment2 = new FindFragment();
-        contentFragment3 = new MineFragment();
+        contentFragment3 = new MessageFragment();
+        contentFragment4 = new MineFragment();
         titleBarHeight = getResources().getDimension(R.dimen.titlebar_height);
     }
 
@@ -87,6 +92,9 @@ public class Main extends TitleBarActivity {
             break;
         case R.id.bottombar_content3:
             changeFragment(contentFragment3);
+            break;
+        case R.id.bottombar_content4:
+            changeFragment(contentFragment4);
             break;
         default:
             break;

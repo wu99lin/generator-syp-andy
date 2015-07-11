@@ -185,6 +185,8 @@ var SypAndyGenerator = yeoman.generators.Base.extend({
     this.template('_src/ui/fragment/_FindFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/FindFragment.java');
     this.template('_src/ui/fragment/_MineFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/MineFragment.java');
     this.template('_src/ui/fragment/_TitleBarFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/TitleBarFragment.java');
+    this.template('_src/ui/fragment/_MessageFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/MessageFragment.java');
+
   },
   widget: function() {
     this.template('_src/ui/widget/_CollapsibleTextView.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/widget/CollapsibleTextView.java');
