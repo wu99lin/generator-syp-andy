@@ -19,8 +19,8 @@ import android.media.MediaPlayer;
 import android.media.MediaRecorder;
 import android.widget.TextView;
 
-import org.kymjs.blog.AppConfig;
-import org.kymjs.blog.R;
+import <%= packageName %>.AppConfig;
+import <%= packageName %>.R;
 import org.kymjs.kjframe.ui.KJActivityStack;
 import org.kymjs.kjframe.ui.ViewInject;
 import org.kymjs.kjframe.utils.FileUtils;

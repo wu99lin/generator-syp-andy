@@ -27,9 +27,9 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import org.kymjs.blog.R;
-import org.kymjs.blog.ui.widget.RecordButtonUtil.OnPlayListener;
-import org.kymjs.blog.utils.KJAnimations;
+import <%= packageName %>.R;
+import <%= packageName %>.ui.widget.RecordButtonUtil.OnPlayListener;
+import <%= packageName %>.utils.KJAnimations;
 import org.kymjs.kjframe.ui.ViewInject;
 
 import java.io.File;

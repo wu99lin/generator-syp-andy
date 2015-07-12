@@ -23,7 +23,7 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.kymjs.blog.R;
+import <%= packageName %>.R;
 import org.kymjs.kjframe.utils.StringUtils;
 import org.kymjs.kjframe.utils.SystemTool;
 

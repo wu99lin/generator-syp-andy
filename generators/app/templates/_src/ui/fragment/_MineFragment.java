@@ -15,10 +15,31 @@
  */
 package <%= packageName %>.ui.fragment;
 
+import java.io.File;
+
+import <%= packageName %>.AppConfig;
+import <%= packageName %>.R;
+import <%= packageName %>.domain.SimpleBackPage;
+import <%= packageName %>.ui.SimpleBackActivity;
+import <%= packageName %>.utils.UIHelper;
+import org.kymjs.kjframe.http.KJAsyncTask;
+import org.kymjs.kjframe.ui.BindView;
+import org.kymjs.kjframe.ui.ViewInject;
+import org.kymjs.kjframe.utils.FileUtils;
+import org.kymjs.kjframe.utils.PreferenceHelper;
+import org.kymjs.kjframe.utils.SystemTool;
+
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
+import android.widget.CompoundButton.OnCheckedChangeListener;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 /**
  *
@@ -29,7 +50,7 @@ import android.view.ViewGroup;
  */
 public class MineFragment extends TitleBarFragment {
 
-  /*  @BindView(id = R.id.mine_tv_collect, click = true)
+    @BindView(id = R.id.mine_tv_collect, click = true)
     private TextView mTvCollect;
     @BindView(id = R.id.mine_tv_join, click = true)
     private TextView mTvJoin;
@@ -122,6 +143,23 @@ public class MineFragment extends TitleBarFragment {
     }
 
     private void doJoin(String url) {
+        // intent.setData(Uri.parse("http://weixin.qq.com/r/Q0gBGfTEsqnNrbB69x1R"));
+        // 怎样才能打开指定的Activity？通过反编译已经获取到Activity的参数key但是没有启动权限
+        // ComponentName componetName = new ComponentName("com.tencent.mm",
+        // "com.tencent.mm.ui.tools.ShowImageUI");
+        //
+        // Intent intent = new Intent();
+        // intent.putExtra("key_title", "你好");
+        // intent.putExtra("key_image_path", FileUtils.getSDCardPath()
+        // + "/qrcode.jpg");
+        // intent.setComponent(componetName);
+        // intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        // try {
+        // Context cxt = CJTool
+        // .getCxtFromPkgName(outsideAty, "com.tencent.mm");
+        // cxt.startActivity(intent);
+        // } catch (NameNotFoundException e) {
+        // }
 
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
@@ -129,6 +167,21 @@ public class MineFragment extends TitleBarFragment {
         startActivity(intent);
     }
 
+    //
+    // @Override
+    // public void onDestroy() {
+    // if (isChanged) {
+    // boolean isOpen = PreferenceHelper.readBoolean(outsideAty,
+    // AppConfig.PUSH_SWITCH_FILE, AppConfig.PUSH_SWITCH_KEY);
+    // if (isOpen) {
+    // KJPushManager.create()
+    // .startWork(outsideAty, PushReceiver.class);
+    // } else {
+    // KJPushManager.create().stopWork();
+    // }
+    // }
+    // super.onDestroy();
+    // }
 
     private void deleteFile(File file) {
         if (file.exists()) {
@@ -142,10 +195,5 @@ public class MineFragment extends TitleBarFragment {
             }
             file.delete();
         }
-    }*/
-
-    @Override
-    protected View inflaterView(final LayoutInflater inflater, final ViewGroup container, final Bundle bundle) {
-        return null;
     }
 }

@@ -15,18 +15,17 @@
  */
 package <%= packageName %>.ui;
 
+import <%= packageName %>.AppContext;
+import <%= packageName %>.R;
+import <%= packageName %>.service.CommonService;
+import org.kymjs.kjframe.KJActivity;
+import org.kymjs.kjframe.utils.DensityUtils;
+import org.kymjs.kjframe.utils.PreferenceHelper;
+
 import android.content.Intent;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
-
-import <%= packageName %>.AppContext;
-import <%= packageName %>.R;
-import <%= packageName %>.service.CommonService;
-
-import org.kymjs.kjframe.KJActivity;
-import org.kymjs.kjframe.utils.DensityUtils;
-import org.kymjs.kjframe.utils.PreferenceHelper;
 
 /**
  * 开机界面

@@ -40,6 +40,23 @@
       android:theme="@android:style/Theme.NoTitleBar" />
 
     <service android:name="<%= packageName %>.service.CommonService"/>
+
+    <!-- KJPush，一个广播一个Service -->
+
+    <service
+      android:name="org.kymjs.push.core.PullService"
+      android:exported="false"
+      android:persistent="true"
+      android:process=":kymjs_pullservice" >
+      <intent-filter android:priority="1000" >
+        <action android:name="org.kymjs.push.service.pull_service" />
+      </intent-filter>
+    </service>
+
+    <receiver
+      android:name="<%= packageName %>.receiver.KJPushReceiver"
+      android:process=":kymjs_pullservice" >
+    </receiver>
     </application>
 
 </manifest>

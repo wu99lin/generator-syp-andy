@@ -37,5 +37,5 @@ public class AppConfig {
     public static final String PUSH_SWITCH_FILE = "push_switch_file";
     public static final String PUSH_SWITCH_KEY = "push_switch_key";
 
-    public static final String PUSH_BROADCAST_ACTION = "org.kymjs.blog.kjpush_has_new_message";
+    public static final String PUSH_BROADCAST_ACTION = "<%= packageName %>.kjpush_has_new_message";
 }

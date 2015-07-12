@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015, 吴至林（善因平）.
+ * Copyright (c) 2015, 鍚磋嚦鏋楋紙鍠勫洜骞筹級.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.kymjs.blog.R;
+import <%= packageName %>.R;
 
 
 public class MessageFragment extends TitleBarFragment {

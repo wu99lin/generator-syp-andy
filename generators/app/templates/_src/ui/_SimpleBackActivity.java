@@ -15,15 +15,15 @@
  */
 package <%= packageName %>.ui;
 
-import android.app.Fragment;
-import android.content.Context;
-import android.content.Intent;
-import android.os.Bundle;
-
 import <%= packageName %>.R;
 import <%= packageName %>.domain.SimpleBackPage;
 import <%= packageName %>.ui.fragment.TitleBarFragment;
 import org.kymjs.kjframe.ui.KJFragment;
+
+import android.app.Fragment;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
 
 /**
  * 应用二级界面

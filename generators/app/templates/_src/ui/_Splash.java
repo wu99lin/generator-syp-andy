@@ -82,20 +82,20 @@ public class Splash extends KJActivity {
      * 屏幕适配
      */
     private void screenAdaptation() {
-        LayoutParams boxParams = (LayoutParams) mRlBox
+        RelativeLayout.LayoutParams boxParams = (LayoutParams) mRlBox
                 .getLayoutParams();
         boxParams.width = (int) (AppContext.screenW * 0.8);
         boxParams.height = (int) (AppContext.screenH * 0.6);
         mRlBox.setLayoutParams(boxParams);
 
-        LayoutParams goParams = (LayoutParams) mBtnGo
+        RelativeLayout.LayoutParams goParams = (LayoutParams) mBtnGo
                 .getLayoutParams();
         goParams.width = (int) (AppContext.screenW * 0.7);
         goParams.height = (int) getResources().getDimension(
                 R.dimen.splash_btn_go_height);
         mBtnGo.setLayoutParams(goParams);
 
-        LayoutParams headParams = (LayoutParams) mImgHead
+        RelativeLayout.LayoutParams headParams = (RelativeLayout.LayoutParams) mImgHead
                 .getLayoutParams();
         headParams.topMargin = (int) ((AppContext.screenH * 0.16) / 2);
         mImgHead.setLayoutParams(headParams);
@@ -121,13 +121,13 @@ public class Splash extends KJActivity {
         String sdCardPath = FileUtils.getSavePath(AppConfig.saveFolder);
         String headImgPath = sdCardPath
                 + PreferenceHelper.readString(aty, TAG,
-                AppConfig.SPLASH_HEAD_IMG_KEY, "");
+                        AppConfig.SPLASH_HEAD_IMG_KEY, "");
         String rootBgPath = sdCardPath
                 + PreferenceHelper.readString(aty, TAG,
-                AppConfig.SPLASH_BACKGROUND_KEY, "");
+                        AppConfig.SPLASH_BACKGROUND_KEY, "");
         String boxBgPath = sdCardPath
                 + PreferenceHelper.readString(aty, TAG,
-                AppConfig.SPLASH_BOX_KEY, "");
+                        AppConfig.SPLASH_BOX_KEY, "");
         String contentStr = PreferenceHelper.readString(aty, TAG,
                 AppConfig.SPLASH_CONTENT_KEY,
                 getString(R.string.splash_content));

@@ -15,6 +15,12 @@
  */
 package <%= packageName %>.ui;
 
+import <%= packageName %>.R;
+import <%= packageName %>.ui.widget.EmptyLayout;
+import org.kymjs.kjframe.ui.BindView;
+import org.kymjs.kjframe.ui.ViewInject;
+import org.kymjs.kjframe.utils.StringUtils;
+
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -35,12 +41,6 @@ import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
-
-import <%= packageName %>.R;
-import <%= packageName %>.ui.widget.EmptyLayout;
-import org.kymjs.kjframe.ui.BindView;
-import org.kymjs.kjframe.ui.ViewInject;
-import org.kymjs.kjframe.utils.StringUtils;
 
 /**
  * 浏览器

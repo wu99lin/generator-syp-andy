@@ -33,7 +33,7 @@ var SypAndyGenerator = yeoman.generators.Base.extend({
     console.log('\nWelcome to the SypAndy Generator\n');
     // say hello Yo!
     this.log(yosay(
-        'Yo Android Generator SypAndy\n'+ '中国项目的AndroidApp\n'+ '吴至林（善因平）整理\n'+ 'OK SypAndy! Generate this app!'
+        'Yo Android Generator SypAndy\n'+ 'Android App\n'+ '吴至林（善因平）整理\n'+ 'OK SypAndy! Generate this app!'
     ));
 
     var prompts = [
@@ -153,23 +153,30 @@ var SypAndyGenerator = yeoman.generators.Base.extend({
     this.mkdir(this.moduleName + '/src/main/java/' + this.packagePath);
 
     this.directory('_res', this.moduleName + '/src/main/res');
+    this.directory('_assets', this.moduleName + '/src/main/assets');
     this.copy('proguard-android.txt', this.moduleName + '/proguard-android.txt');
     this.copy('proguard-rules.pro', this.moduleName + '/proguard-rules.pro');
   },
+  libs:function(){
+    this.copy('libs/activation.jar', this.moduleName + '/libs/activation.jar');
+    this.copy('libs/additionnal.jar', this.moduleName + '/libs/additionnal.jar');
+    this.copy('libs/photoview-library.jar', this.moduleName + '/libs/photoview-library.jar');
+    this.copy('libs/mail.jar', this.moduleName + '/libs/mail.jar');
+    this.copy('libs/xstream-1.4.7.jar', this.moduleName + '/libs/xstream-1.4.7.jar');
+  },
   xml:function(){
-    if(this.xmlParser){
+    //if(this.xmlParser){
       this.template('_src/utils/_Parser.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/Parser.java');
-      this.copy('libs/xstream-1.4.7.jar', this.moduleName + '/libs/xstream-1.4.7.jar');
-    }
+    //}
   },
   main:function(){
-    if(this.addEmail){
+    //if(this.addEmail){
       this.template('_src/utils/_MailSenderInfo.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/MailSenderInfo.java');
       this.template('_src/utils/_MyAuthenticator.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/MyAuthenticator.java');
       this.template('_src/utils/_SimpleMailSender.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/SimpleMailSender.java');
-      this.copy('libs/mail.jar', this.moduleName + '/libs/mail.jar');
-    }
+    //}
   },
+
   kjframe:function(){
     this.directory('libraries/KJFrame', 'libraries/KJFrame');
   },
@@ -178,11 +185,40 @@ var SypAndyGenerator = yeoman.generators.Base.extend({
     this.template('_src/_AppContext.java', this.moduleName + '/src/main/java/' + this.packagePath + '/AppContext.java');
     this.template('_src/_CrashHandler.java', this.moduleName + '/src/main/java/' + this.packagePath + '/CrashHandler.java');
   },
+  adapter:function(){
+    this.template('_src/adapter/ActiveAdapter.java', this.moduleName + '/src/main/java/' + this.packagePath + '/adapter/ActiveAdapter.java');
+    this.template('_src/adapter/BlogAdapter.java', this.moduleName + '/src/main/java/' + this.packagePath + '/adapter/BlogAdapter.java');
+    this.template('_src/adapter/BlogAuthorAdapter.java', this.moduleName + '/src/main/java/' + this.packagePath + '/adapter/BlogAuthorAdapter.java');
+    this.template('_src/adapter/CollectAdapter.java', this.moduleName + '/src/main/java/' + this.packagePath + '/adapter/CollectAdapter.java');
+    this.template('_src/adapter/NotebookAdapter.java', this.moduleName + '/src/main/java/' + this.packagePath + '/adapter/NotebookAdapter.java');
+    this.template('_src/adapter/OSCBlogAdapter.java', this.moduleName + '/src/main/java/' + this.packagePath + '/adapter/OSCBlogAdapter.java');
+    this.template('_src/adapter/TweetAdapter.java', this.moduleName + '/src/main/java/' + this.packagePath + '/adapter/TweetAdapter.java');
+    this.template('_src/adapter/WeChatAdapter.java', this.moduleName + '/src/main/java/' + this.packagePath + '/adapter/WeChatAdapter.java');
+  },
   service: function() {
     this.template('_src/service/_CommonService.java', this.moduleName + '/src/main/java/' + this.packagePath + '/service/CommonService.java', this, {});
   },
   domain: function() {
-    this.template('_src/domain/_SimpleBackPage.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/SimpleBackPage.java', this, {});
+   // this.template('_src/domain/_SimpleBackPage.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/SimpleBackPage.java', this, {});
+    this.template('_src/domain/Active.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/Active.java', this, {});
+    this.template('_src/domain/ActiveList.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/ActiveList.java', this, {});
+    this.template('_src/domain/Blog.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/Blog.java', this, {});
+    this.template('_src/domain/BlogAuthor.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/BlogAuthor.java', this, {});
+    this.template('_src/domain/CollectData.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/CollectData.java', this, {});
+    this.template('_src/domain/EverydayMessage.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/EverydayMessage.java', this, {});
+    this.template('_src/domain/LoginData.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/LoginData.java', this, {});
+    this.template('_src/domain/NotebookData.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/NotebookData.java', this, {});
+    this.template('_src/domain/OSCBlog.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/OSCBlog.java', this, {});
+    this.template('_src/domain/OSCBlogEntity.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/OSCBlogEntity.java', this, {});
+    this.template('_src/domain/OSCBlogList.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/OSCBlogList.java', this, {});
+    this.template('_src/domain/SimpleBackPage.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/SimpleBackPage.java', this, {});
+    this.template('_src/domain/Tweet.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/Tweet.java', this, {});
+    this.template('_src/domain/TweetsList.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/TweetsList.java', this, {});
+    this.template('_src/domain/User.java', this.moduleName + '/src/main/java/' + this.packagePath + '/domain/User.java', this, {});
+  },
+  receiver:function(){
+    this.template('_src/receiver/KJPushReceiver.java', this.moduleName + '/src/main/java/' + this.packagePath + '/receiver/KJPushReceiver.java', this, {});
+
   },
   ui: function() {
     this.template('_src/ui/_AppStart.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/AppStart.java');
@@ -191,6 +227,9 @@ var SypAndyGenerator = yeoman.generators.Base.extend({
     this.template('_src/ui/_SimpleBackActivity.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/SimpleBackActivity.java');
     this.template('_src/ui/_Splash.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/Splash.java');
     this.template('_src/ui/_TitleBarActivity.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/TitleBarActivity.java');
+    this.template('_src/ui/_ImageActivity.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/ImageActivity.java');
+    this.template('_src/ui/_MyBlogBrowser.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/MyBlogBrowser.java');
+    this.template('_src/ui/_Login.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/Login.java');
 
   },
   fragment: function() {
@@ -200,6 +239,21 @@ var SypAndyGenerator = yeoman.generators.Base.extend({
     this.template('_src/ui/fragment/_MineFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/MineFragment.java');
     this.template('_src/ui/fragment/_TitleBarFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/TitleBarFragment.java');
     this.template('_src/ui/fragment/_MessageFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/MessageFragment.java');
+    this.template('_src/ui/fragment/_AboutFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/AboutFragment.java');
+    this.template('_src/ui/fragment/_ActiveFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/ActiveFragment.java');
+    this.template('_src/ui/fragment/_BlogAuthorFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/BlogAuthorFragment.java');
+    this.template('_src/ui/fragment/_BlogFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/BlogFragment.java');
+    this.template('_src/ui/fragment/_BlogFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/BlogFragment.java');
+    this.template('_src/ui/fragment/_MyCollectFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/MyCollectFragment.java');
+    this.template('_src/ui/fragment/_NoteBookFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/NoteBookFragment.java');
+    this.template('_src/ui/fragment/_NoteEditFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/NoteEditFragment.java');
+    this.template('_src/ui/fragment/_OSCBlogDetailFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/OSCBlogDetailFragment.java');
+    this.template('_src/ui/fragment/_OSCBlogListFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/OSCBlogListFragment.java');
+    this.template('_src/ui/fragment/_OSCBlogListFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/OSCBlogListFragment.java');
+    this.template('_src/ui/fragment/_TweetFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/TweetFragment.java');
+    this.template('_src/ui/fragment/_TweetRecordFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/TweetRecordFragment.java');
+    this.template('_src/ui/fragment/_WeChatFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/WeChatFragment.java');
+    this.template('_src/ui/fragment/_ContentFragment.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/fragment/ContentFragment.java');
 
   },
   widget: function() {
@@ -228,7 +282,7 @@ var SypAndyGenerator = yeoman.generators.Base.extend({
   },
   utils: function() {
     this.template('_src/utils/_KJAnimations.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/KJAnimations.java');
-   // this.template('_src/utils/_PullTip.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/PullTip.java');
+    this.template('_src/utils/_PullTip.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/PullTip.java');
     this.template('_src/utils/_TimeUtils.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/TimeUtils.java');
     this.template('_src/utils/_UIHelper.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/UIHelper.java');
   },

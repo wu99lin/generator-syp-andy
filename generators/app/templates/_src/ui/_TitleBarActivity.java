@@ -28,13 +28,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import <%= packageName %>.R;
-
 import <%= packageName %>.ui.widget.dobmenu.CurtainItem.OnSwitchListener;
 import <%= packageName %>.ui.widget.dobmenu.CurtainItem.SlidingType;
 import <%= packageName %>.ui.widget.dobmenu.CurtainView;
 import <%= packageName %>.utils.KJAnimations;
 import <%= packageName %>.utils.PullTip;
-
 import org.kymjs.kjframe.KJActivity;
 import org.kymjs.kjframe.ui.KJActivityStack;
 
@@ -63,7 +61,7 @@ public abstract class TitleBarActivity extends KJActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         super.onCreate(savedInstanceState);
-        if (!"org.kymjs.blog".equals(getApplication().getPackageName())) {
+        if (!"<%= packageName %>".equals(getApplication().getPackageName())) {
             KJActivityStack.create().AppExit(aty);
         }
     }

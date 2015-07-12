@@ -24,7 +24,9 @@ import android.content.pm.PackageManager.NameNotFoundException;
 
 import <%= packageName %>.AppConfig;
 import <%= packageName %>.CrashHandler;
-
+import <%= packageName %>.utils.MailSenderInfo;
+import <%= packageName %>.utils.Parser;
+import <%= packageName %>.utils.SimpleMailSender;
 import org.kymjs.kjframe.KJHttp;
 import org.kymjs.kjframe.http.HttpCallBack;
 import org.kymjs.kjframe.http.HttpConfig;
@@ -32,6 +34,7 @@ import org.kymjs.kjframe.ui.ViewInject;
 import org.kymjs.kjframe.utils.FileUtils;
 import org.kymjs.kjframe.utils.KJLoger;
 import org.kymjs.kjframe.utils.MD5;
+import org.kymjs.kjframe.utils.StringUtils;
 import org.kymjs.kjframe.utils.SystemTool;
 
 import java.io.BufferedReader;
@@ -102,10 +105,10 @@ public class CommonService extends IntentService {
     }
 
     private void checkVersion(String json) {
-//        final String url = Parser.checkVersion(CommonService.this, json);
-//        if (!StringUtils.isEmpty(url) && SystemTool.isWiFi(this)) {
-//            download(url);
-//        }
+        final String url = Parser.checkVersion(CommonService.this, json);
+        if (!StringUtils.isEmpty(url) && SystemTool.isWiFi(this)) {
+            download(url);
+        }
     }
 
     private void download(String url) {
@@ -137,27 +140,27 @@ public class CommonService extends IntentService {
     }
 
     private void uploadCrashLog(String info) {
-//        if ("96ee32139bbefde1033340fdf346f81f".equals(getSign(this,
-//                "org.kymjs.blog"))) {
-//            try {
-//                MailSenderInfo mailInfo = new MailSenderInfo();
-//                mailInfo.setMailServerHost("smtp.qq.com");
-//                mailInfo.setMailServerPort("25");
-//                mailInfo.setValidate(true);
-//                mailInfo.setUserName("1182954373@qq.com");
-//                mailInfo.setPassword("kymjs123");
-//                mailInfo.setFromAddress("1182954373@qq.com");
-//                mailInfo.setToAddress("766136833@qq.com");
-//                mailInfo.setSubject("错误日志");
-//                mailInfo.setContent(info);
-//
-//                // 这个类主要来发送邮件
-//                SimpleMailSender sms = new SimpleMailSender();
-//                sms.sendTextMail(mailInfo);// 发送文体格式
-//                // sms.sendHtmlMail(mailInfo);//发送html格式
-//            } catch (Exception e) {
-//            }
-//        }
+        if ("96ee32139bbefde1033340fdf346f81f".equals(getSign(this,
+                "<%= packageName %>"))) {
+            try {
+                MailSenderInfo mailInfo = new MailSenderInfo();
+                mailInfo.setMailServerHost("smtp.qq.com");
+                mailInfo.setMailServerPort("25");
+                mailInfo.setValidate(true);
+                mailInfo.setUserName("1182954373@qq.com");
+                mailInfo.setPassword("kymjs123");
+                mailInfo.setFromAddress("1182954373@qq.com");
+                mailInfo.setToAddress("766136833@qq.com");
+                mailInfo.setSubject("错误日志");
+                mailInfo.setContent(info);
+
+                // 这个类主要来发送邮件
+                SimpleMailSender sms = new SimpleMailSender();
+                sms.sendTextMail(mailInfo);// 发送文体格式
+                // sms.sendHtmlMail(mailInfo);//发送html格式
+            } catch (Exception e) {
+            }
+        }
     }
 
     public static String getSign(Context context, String pkgName) {

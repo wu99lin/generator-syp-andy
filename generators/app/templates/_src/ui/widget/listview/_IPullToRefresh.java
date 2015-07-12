@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2015, 张涛.
  *
- * Licensed import org.kymjs.blog.ui.widget.listview.PullToRefreshBase.OnRefreshListener;
+ * Licensed import <%= packageName %>.ui.widget.listview.PullToRefreshBase.OnRefreshListener;
 
 import android.content.Context;
 import android.util.AttributeSet;

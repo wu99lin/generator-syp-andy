@@ -15,13 +15,12 @@
  */
 package <%= packageName %>.ui.fragment;
 
-import android.graphics.drawable.Drawable;
-import android.os.Bundle;
-
 import <%= packageName %>.AppContext;
 import <%= packageName %>.ui.TitleBarActivity;
-
 import org.kymjs.kjframe.ui.KJFragment;
+
+import android.graphics.drawable.Drawable;
+import android.os.Bundle;
 
 /**
  *

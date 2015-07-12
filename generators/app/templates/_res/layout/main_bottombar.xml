@@ -26,18 +26,19 @@
         android:text="@string/find" />
 
     <RadioButton
-            android:id="@+id/bottombar_content3"
-            style="@style/bottombar"
-            android:layout_weight="1"
-            android:drawableTop="@drawable/selector_bottombar_message"
-            android:button="@null"
-            android:text="@string/message" />
+        android:id="@+id/bottombar_content3"
+        style="@style/bottombar"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/selector_bottombar_message"
+        android:button="@null"
+        android:text="@string/message" />
     <RadioButton
-            android:id="@+id/bottombar_content4"
-            style="@style/bottombar"
-            android:layout_weight="1"
-            android:drawableTop="@drawable/selector_bottombar_mine"
-            android:button="@null"
-            android:text="@string/mine" />
+      android:id="@+id/bottombar_content4"
+      style="@style/bottombar"
+      android:layout_weight="1"
+      android:drawableTop="@drawable/selector_bottombar_mine"
+      android:button="@null"
+      android:text="@string/mine" />
+
 
 </RadioGroup>

@@ -23,14 +23,13 @@ import android.widget.RadioButton;
 
 import <%= packageName %>.R;
 import <%= packageName %>.ui.fragment.BlogFragment;
-import <%= packageName %>.ui.fragment.FindFragment;
+import <%= packageName %>.ui.fragment.ContentFragment;
+import <%= packageName %>.ui.fragment.MessageFragment;
 import <%= packageName %>.ui.fragment.MineFragment;
 import <%= packageName %>.ui.fragment.TitleBarFragment;
 import <%= packageName %>.utils.KJAnimations;
-
 import org.kymjs.kjframe.ui.BindView;
 import org.kymjs.kjframe.ui.KJActivityStack;
-
 
 /**
  * 应用主界面
@@ -68,9 +67,10 @@ public class Main extends TitleBarActivity {
     public void initData() {
         super.initData();
         contentFragment1 = new BlogFragment();
-        contentFragment2 = new FindFragment();
+        contentFragment2 = new ContentFragment();
         contentFragment3 = new MessageFragment();
         contentFragment4 = new MineFragment();
+
         titleBarHeight = getResources().getDimension(R.dimen.titlebar_height);
     }
 
@@ -96,6 +96,7 @@ public class Main extends TitleBarActivity {
         case R.id.bottombar_content4:
             changeFragment(contentFragment4);
             break;
+
         default:
             break;
         }
@@ -166,7 +167,7 @@ public class Main extends TitleBarActivity {
     };
 
     @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
+    public boolean onKeyDown(int keyCode, android.view.KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
             if (isOnKeyBacking) {
                 mMainLoopHandler.removeCallbacks(onBackTimeRunnable);

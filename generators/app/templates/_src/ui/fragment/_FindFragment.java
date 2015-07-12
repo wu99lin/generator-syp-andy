@@ -15,10 +15,27 @@
  */
 package <%= packageName %>.ui.fragment;
 
+import <%= packageName %>.AppContext;
+import <%= packageName %>.R;
+import <%= packageName %>.domain.SimpleBackPage;
+import <%= packageName %>.ui.Login;
+import <%= packageName %>.ui.SimpleBackActivity;
+import <%= packageName %>.ui.TitleBarActivity;
+import <%= packageName %>.ui.widget.KJScrollView;
+import <%= packageName %>.ui.widget.KJScrollView.OnViewTopPull;
+import <%= packageName %>.utils.UIHelper;
+import org.kymjs.kjframe.KJBitmap;
+import org.kymjs.kjframe.ui.BindView;
+import org.kymjs.kjframe.utils.StringUtils;
+import org.kymjs.kjframe.widget.RoundImageView;
+
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.RelativeLayout.LayoutParams;
+import android.widget.TextView;
 
 /**
  * 发现界面
@@ -28,7 +45,7 @@ import android.view.ViewGroup;
  *
  */
 public class FindFragment extends TitleBarFragment {
-/*
+
     @BindView(id = R.id.find_img_zone)
     private ImageView mImgZone;
     @BindView(id = R.id.find_img_head, click = true)
@@ -142,10 +159,5 @@ public class FindFragment extends TitleBarFragment {
                 UIHelper.getUser(outsideAty).getPortrait(),
                 R.drawable.default_head, R.drawable.default_head);
         mTvName.setText(UIHelper.getUser(outsideAty).getName());
-    }*/
-
-    @Override
-    protected View inflaterView(final LayoutInflater inflater, final ViewGroup container, final Bundle bundle) {
-        return null;
     }
 }
