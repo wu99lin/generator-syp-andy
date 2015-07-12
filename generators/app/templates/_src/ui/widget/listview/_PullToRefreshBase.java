@@ -27,7 +27,7 @@ import android.view.animation.Interpolator;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
-import org.kymjs.blog.ui.widget.listview.ILoadingLayout.State;
+import <%= packageName %>.ui.widget.listview.ILoadingLayout.State;
 
 /**
  * 这个实现了下拉刷新和上拉加载更多的功能

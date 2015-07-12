@@ -96,6 +96,26 @@ var SypAndyGenerator = yeoman.generators.Base.extend({
             return {name: name, value: value};
           }),
         default: 3 // Holo Light with Dark ActionBar
+      },
+      {
+        name: 'xmlParser',
+        message: 'add xml parser:',
+        type: 'list',
+        choices: [
+          {name: 'No', value: false},
+          {name: 'Yes', value: true}
+        ],
+        default: 0
+      },
+      {
+        name: 'addEmail',
+        message: 'add email lib:',
+        type: 'list',
+        choices: [
+          {name: 'No', value: false},
+          {name: 'Yes', value: true}
+        ],
+        default: 0
       }
     ];
 
@@ -109,6 +129,8 @@ var SypAndyGenerator = yeoman.generators.Base.extend({
       this.compileSdkVersion = answers.compileSdkVersion;
       this.javaLanguageLevel = answers.javaLanguageLevel;
       this.theme = answers.theme;
+      this.xmlParser = answers.xmlParser;
+      this.addEmail = answers.addEmail;
       this.supportLibraries = answers.supportLibraries || {};
 
       done();
@@ -133,6 +155,20 @@ var SypAndyGenerator = yeoman.generators.Base.extend({
     this.directory('_res', this.moduleName + '/src/main/res');
     this.copy('proguard-android.txt', this.moduleName + '/proguard-android.txt');
     this.copy('proguard-rules.pro', this.moduleName + '/proguard-rules.pro');
+  },
+  xml:function(){
+    if(this.xmlParser){
+      this.template('_src/utils/_Parser.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/Parser.java');
+      this.copy('libs/xstream-1.4.7.jar', this.moduleName + '/libs/xstream-1.4.7.jar');
+    }
+  },
+  main:function(){
+    if(this.addEmail){
+      this.template('_src/utils/_MailSenderInfo.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/MailSenderInfo.java');
+      this.template('_src/utils/_MyAuthenticator.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/MyAuthenticator.java');
+      this.template('_src/utils/_SimpleMailSender.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/SimpleMailSender.java');
+      this.copy('libs/mail.jar', this.moduleName + '/libs/mail.jar');
+    }
   },
   kjframe:function(){
     this.directory('libraries/KJFrame', 'libraries/KJFrame');
@@ -182,21 +218,17 @@ var SypAndyGenerator = yeoman.generators.Base.extend({
     this.template('_src/ui/widget/listview/_IPullToRefresh.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/widget/listview/IPullToRefresh.java');
     this.template('_src/ui/widget/listview/_LoadingLayout.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/widget/listview/LoadingLayout.java');
     this.template('_src/ui/widget/listview/_PullToRefreshBase.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/widget/listview/PullToRefreshBase.java');
-    this.template('_src/ui/widget/listview/_PullToRefreshList.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/widget/listview/_PullToRefreshList.java');
+    this.template('_src/ui/widget/listview/_PullToRefreshList.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/widget/listview/PullToRefreshList.java');
   },
   dobmenu: function() {
     this.template('_src/ui/widget/dobmenu/_AnimationExecutor.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/widget/dobmenu/AnimationExecutor.java');
     this.template('_src/ui/widget/dobmenu/_CurtainItem.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/widget/dobmenu/CurtainItem.java');
     this.template('_src/ui/widget/dobmenu/_CurtainView.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/widget/dobmenu/CurtainView.java');
-    this.template('_src/ui/widget/dobmenu/_CurtainViewController.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/widget/dobmenu/_CurtainViewController.java');
+    this.template('_src/ui/widget/dobmenu/_CurtainViewController.java', this.moduleName + '/src/main/java/' + this.packagePath + '/ui/widget/dobmenu/CurtainViewController.java');
   },
   utils: function() {
     this.template('_src/utils/_KJAnimations.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/KJAnimations.java');
-    this.template('_src/utils/_MailSenderInfo.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/MailSenderInfo.java');
-    this.template('_src/utils/_MyAuthenticator.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/MyAuthenticator.java');
-    this.template('_src/utils/_Parser.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/Parser.java');
-    this.template('_src/utils/_PullTip.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/PullTip.java');
-    this.template('_src/utils/_SimpleMailSender.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/SimpleMailSender.java');
+   // this.template('_src/utils/_PullTip.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/PullTip.java');
     this.template('_src/utils/_TimeUtils.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/TimeUtils.java');
     this.template('_src/utils/_UIHelper.java', this.moduleName + '/src/main/java/' + this.packagePath + '/utils/UIHelper.java');
   },

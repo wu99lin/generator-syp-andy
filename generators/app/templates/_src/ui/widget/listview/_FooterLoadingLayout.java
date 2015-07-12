@@ -21,7 +21,7 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.kymjs.blog.R;
+import <%= packageName %>.R;
 
 /**
  * 这个类封装了上拉加载的布局

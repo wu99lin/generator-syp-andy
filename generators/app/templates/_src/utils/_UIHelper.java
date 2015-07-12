@@ -15,23 +15,10 @@
  */
 package <%= packageName %>.utils;
 
-import java.util.List;
-
-import <%= packageName %>.domain.SimpleBackPage;
-import <%= packageName %>.domain.User;
-import <%= packageName %>.ui.Browser;
-import <%= packageName %>.ui.ImageActivity;
-import <%= packageName %>.ui.MyBlogBrowser;
-import <%= packageName %>.ui.SimpleBackActivity;
-import <%= packageName %>.ui.fragment.OSCBlogDetailFragment;
-import org.kymjs.kjframe.KJDB;
-import org.kymjs.kjframe.utils.StringUtils;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
-import android.os.Bundle;
 import android.view.View;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebSettings;
@@ -39,8 +26,10 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ZoomButtonsController;
 
+import org.kymjs.kjframe.utils.StringUtils;
+
 public class UIHelper {
-    private static User user = null;
+//    private static User user = null;
 
     /** 全局web样式 */
     // 链接样式文件，代码块高亮的处理
@@ -155,67 +144,67 @@ public class UIHelper {
         void showImagePreview(String bigImageUrl);
     }
 
-    public static void toBrowser(Context cxt, String url) {
-        if (StringUtils.isEmpty(url)) {
-            return;
-        }
-        if (url.indexOf("oschina") > 0) {
-            Bundle bundle = new Bundle();
-            bundle.putString(OSCBlogDetailFragment.DATA_URL_KEY, url);
-            SimpleBackActivity.postShowWith(cxt,
-                    SimpleBackPage.OSC_BLOG_DETAIL, bundle);
-        } else if (url.indexOf("blog.kymjs.com") > 0) {
-            Intent intent = new Intent(cxt, MyBlogBrowser.class);
-            intent.putExtra(MyBlogBrowser.BROWSER_KEY, url);
-            intent.putExtra(MyBlogBrowser.BROWSER_TITLE_KEY, "博客详情");
-            cxt.startActivity(intent);
-        } else if (url.indexOf("www.kymjs.com") > 0) {
-            Intent intent = new Intent(cxt, MyBlogBrowser.class);
-            intent.putExtra(MyBlogBrowser.BROWSER_TITLE_KEY, "开源实验室");
-            intent.putExtra(MyBlogBrowser.BROWSER_KEY, url);
-            cxt.startActivity(intent);
-        } else {
-            Intent intent = new Intent(cxt, Browser.class);
-            intent.putExtra(MyBlogBrowser.BROWSER_KEY, url);
-            cxt.startActivity(intent);
-        }
-    }
-
-    public static void toGallery(Context cxt, String url) {
-        if (!StringUtils.isEmpty(url)) {
-            Intent intent = new Intent();
-            intent.putExtra(ImageActivity.URL_KEY, url);
-            intent.setClass(cxt, ImageActivity.class);
-            cxt.startActivity(intent);
-        }
-    }
-
-    public static void saveUser(Context cxt, User u) {
-        KJDB kjdb = KJDB.create(cxt);
-        kjdb.deleteByWhere(User.class, "");
-        user = u;
-        kjdb.save(u);
-    }
-
-    public static User getUser(Context cxt) {
-        if (user != null) {
-            return user;
-        }
-        KJDB kjdb = KJDB.create(cxt);
-        List<User> datas = kjdb.findAll(User.class);
-
-        if (datas != null && datas.size() > 0) {
-            user = datas.get(0);
-        } else {
-            user = new User();
-            user.setUid(2332925);
-            user.setPortrait("http://www.kymjs.com/image/default_head.png");
-            user.setName("爱看博客用户");
-            user.setPwd("");
-            user.setAccount("");
-            user.setCookie("oscid=8N57Os9FG%2F%2B%2FFIA9vyogCJYPf0yMQGHmZhyzKMyuza2hL%2BW4xL7DPVVS%2B1BREZZzJGVMZrm4jNnkRHJmiDzNhjZIjp4pKbDtS4hUVFfAysLMq%2Fy5vIojQA%3D%3D;JSESSIONID=9B7tJ9RSZ4YYbdRhvg2xcTQ7skNJBwK3tMzdttnZwJpqmtx1d6hn!-25520330;");
-            kjdb.save(user);
-        }
-        return user;
-    }
+//    public static void toBrowser(Context cxt, String url) {
+//        if (StringUtils.isEmpty(url)) {
+//            return;
+//        }
+//        if (url.indexOf("oschina") > 0) {
+//            Bundle bundle = new Bundle();
+//            bundle.putString(OSCBlogDetailFragment.DATA_URL_KEY, url);
+//            SimpleBackActivity.postShowWith(cxt,
+//                    SimpleBackPage.OSC_BLOG_DETAIL, bundle);
+//        } else if (url.indexOf("blog.kymjs.com") > 0) {
+//            Intent intent = new Intent(cxt, MyBlogBrowser.class);
+//            intent.putExtra(MyBlogBrowser.BROWSER_KEY, url);
+//            intent.putExtra(MyBlogBrowser.BROWSER_TITLE_KEY, "博客详情");
+//            cxt.startActivity(intent);
+//        } else if (url.indexOf("www.kymjs.com") > 0) {
+//            Intent intent = new Intent(cxt, MyBlogBrowser.class);
+//            intent.putExtra(MyBlogBrowser.BROWSER_TITLE_KEY, "开源实验室");
+//            intent.putExtra(MyBlogBrowser.BROWSER_KEY, url);
+//            cxt.startActivity(intent);
+//        } else {
+//            Intent intent = new Intent(cxt, Browser.class);
+//            intent.putExtra(MyBlogBrowser.BROWSER_KEY, url);
+//            cxt.startActivity(intent);
+//        }
+//    }
+//
+//    public static void toGallery(Context cxt, String url) {
+//        if (!StringUtils.isEmpty(url)) {
+//            Intent intent = new Intent();
+//            intent.putExtra(ImageActivity.URL_KEY, url);
+//            intent.setClass(cxt, ImageActivity.class);
+//            cxt.startActivity(intent);
+//        }
+//    }
+//
+//    public static void saveUser(Context cxt, User u) {
+//        KJDB kjdb = KJDB.create(cxt);
+//        kjdb.deleteByWhere(User.class, "");
+//        user = u;
+//        kjdb.save(u);
+//    }
+//
+//    public static User getUser(Context cxt) {
+//        if (user != null) {
+//            return user;
+//        }
+//        KJDB kjdb = KJDB.create(cxt);
+//        List<User> datas = kjdb.findAll(User.class);
+//
+//        if (datas != null && datas.size() > 0) {
+//            user = datas.get(0);
+//        } else {
+//            user = new User();
+//            user.setUid(2332925);
+//            user.setPortrait("http://www.kymjs.com/image/default_head.png");
+//            user.setName("爱看博客用户");
+//            user.setPwd("");
+//            user.setAccount("");
+//            user.setCookie("oscid=8N57Os9FG%2F%2B%2FFIA9vyogCJYPf0yMQGHmZhyzKMyuza2hL%2BW4xL7DPVVS%2B1BREZZzJGVMZrm4jNnkRHJmiDzNhjZIjp4pKbDtS4hUVFfAysLMq%2Fy5vIojQA%3D%3D;JSESSIONID=9B7tJ9RSZ4YYbdRhvg2xcTQ7skNJBwK3tMzdttnZwJpqmtx1d6hn!-25520330;");
+//            kjdb.save(user);
+//        }
+//        return user;
+//    }
 }

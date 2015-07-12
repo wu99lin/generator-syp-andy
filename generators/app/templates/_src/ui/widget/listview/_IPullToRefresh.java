@@ -18,7 +18,7 @@ package <%= packageName %>.ui.widget.listview;
 
 import android.view.View;
 
-import org.kymjs.blog.ui.widget.listview.PullToRefreshBase.OnRefreshListener;
+import <%= packageName %>.ui.widget.listview.PullToRefreshBase.OnRefreshListener;
 
 /**
  * 定义了拉动刷新的接口

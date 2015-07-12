@@ -27,8 +27,8 @@ import android.widget.ImageView.ScaleType;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import org.kymjs.blog.R;
-import org.kymjs.blog.utils.PullTip;
+import <%= packageName %>.R;
+import <%= packageName %>.utils.PullTip;
 
 /**
  * 这个类封装了下拉刷新的布局
