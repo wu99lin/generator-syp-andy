@@ -1,4 +1,6 @@
 # SypAndy
+项目架构来源 kymjs (https://www.kymjs.com/)
+感谢kymjs提供优秀案例
 
 ## Getting Started
 

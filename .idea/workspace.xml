@@ -2,183 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7348f28-8490-4f2c-8a77-6b891b85a263" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/libs/activation.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/libs/additionnal.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/audio0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/audio1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/audio2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/audio3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/blog_item_recommend_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/blog_item_today_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-ldpi/blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/btn_delete_input_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/btn_delete_input_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/default_egt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-ldpi/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/ic_axis_top_line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/ic_btn_green_nor.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/ic_btn_green_sel.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/ic_mine_1_nor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/ic_mine_1_sel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/ic_note_delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/ic_time.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-ldpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-xhdpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-xxhdpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-ldpi/icon_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/icon_color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-ldpi/icon_green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-ldpi/icon_purple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/icon_record_delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/icon_record_layout_nor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/icon_record_layout_sel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/icon_record_listen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/icon_record_play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-ldpi/icon_red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-ldpi/icon_yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-ldpi/image_add_nor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-ldpi/image_add_sel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/interact_cion_set.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_assets/about_files/kymjs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/list_alone_nor.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/list_alone_sel.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/list_bottom_nor.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/list_bottom_sel.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/list_mid_nor.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/list_mid_sel.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/list_top_nor.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/list_top_sel.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/login_logo_baidu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/login_logo_qq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/login_logo_weibo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/page_icon_empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/page_icon_network.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-hdpi/pagefailed_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/libs/photoview-library.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-ldpi/purple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_assets/about_files/qrcode.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-ldpi/red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable-ldpi/yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/domain/Active.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/adapter/ActiveAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/domain/ActiveList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/domain/Blog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/adapter/BlogAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/domain/BlogAuthor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/adapter/BlogAuthorAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/adapter/CollectAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/domain/CollectData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/domain/EverydayMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/aidl/IPushService.aidl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/receiver/KJPushReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/domain/LoginData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_assets/about_files/MathJax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/adapter/NotebookAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/domain/NotebookData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/domain/OSCBlog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/adapter/OSCBlogAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/domain/OSCBlogEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/domain/OSCBlogList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/domain/SimpleBackPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/domain/Tweet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/adapter/TweetAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/domain/TweetsList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/domain/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/adapter/WeChatAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_AboutFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_ActiveFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_BlogAuthorFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_ContentFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/_ImageActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/_Login.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/_MyBlogBrowser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_MyCollectFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_NoteBookFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_NoteEditFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_OSCBlogDetailFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_OSCBlogListFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_TweetFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_TweetRecordFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_WeChatFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_assets/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_assets/about_files/analytics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/aty_image.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/aty_login.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/aty_simple_back.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/aty_splash.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/aty_start.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable/bg_border_black.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable/bg_record_button.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable/bg_uid.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable/black.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable/btn_settings_alone.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable/btn_settings_bottom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable/btn_settings_mid.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable/btn_settings_top.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_assets/about_files/css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/values-w820dp/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/frag_about.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/frag_pull_refresh_listview.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/frag_tweet_pub_record.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/frag_wechat.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/fragment_content.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/fragment_note.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/fragment_note_detail.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_assets/about_files/hm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/item_blog_author.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/item_list_active.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/item_list_blog.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/item_list_blog_stackyhead.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/item_list_collect.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/item_list_tweet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/item_list_wechat.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/item_notebook.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/item_wechat_list.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_assets/about_files/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/layout_note_detail_menu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_assets/about_files/modernizr-2.6.2.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable/pic_bg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_assets/about_files/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/pull_to_load_footer.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/record_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_assets/about_files/scripts.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable/selector_btn_green.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable/selector_del_input.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable/selector_image_add.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable/selector_record_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/drawable/splash_box_bg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/values-zh/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/view_error_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_AndroidManifest.xml" afterPath="$PROJECT_DIR$/generators/app/templates/_AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/_AppConfig.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/_AppConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/ui/_AppStart.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/_AppStart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_BlogFragment.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_BlogFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/ui/_Browser.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/_Browser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/service/_CommonService.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/service/_CommonService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/ui/widget/_EmptyLayout.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/widget/_EmptyLayout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_FindFragment.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_FindFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/ui/widget/listview/_IPullToRefresh.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/widget/listview/_IPullToRefresh.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/ui/_Main.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/_Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_MessageFragment.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_MessageFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_MineFragment.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_MineFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/utils/_Parser.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/utils/_Parser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/ui/widget/_RecordButton.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/widget/_RecordButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/ui/widget/_RecordButtonUtil.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/widget/_RecordButtonUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/ui/_SimpleBackActivity.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/_SimpleBackActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/ui/_Splash.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/_Splash.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/ui/_TitleBarActivity.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/_TitleBarActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_TitleBarFragment.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_TitleBarFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_src/utils/_UIHelper.java" afterPath="$PROJECT_DIR$/generators/app/templates/_src/utils/_UIHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/generator_andy_node_modules.xml" afterPath="$PROJECT_DIR$/.idea/libraries/generator_andy_node_modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/index.js" afterPath="$PROJECT_DIR$/generators/app/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_res/menu/main.xml" afterPath="$PROJECT_DIR$/generators/app/templates/_res/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_res/layout/main_bottombar.xml" afterPath="$PROJECT_DIR$/generators/app/templates/_res/layout/main_bottombar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generators/app/templates/_res/values/strings.xml" afterPath="$PROJECT_DIR$/generators/app/templates/_res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="generator-andy.iws" />
@@ -200,11 +24,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generators/app/templates/_src/ui/_Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.012324">
-              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.09225092">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_AppStart.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generators/app/templates/_src/ui/_AppStart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -236,6 +80,7 @@
         <option value="$PROJECT_DIR$/generators/app/templates/_res/layout/fragment_content.xml" />
         <option value="$PROJECT_DIR$/generators/app/templates/_src/ui/fragment/_ContentFragment.java" />
         <option value="$PROJECT_DIR$/generators/app/templates/_src/ui/_Main.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -247,7 +92,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
+    <option name="x" value="-3" />
     <option name="width" value="1370" />
     <option name="height" value="728" />
   </component>
@@ -517,13 +362,20 @@
       <option name="project" value="LOCAL" />
       <updated>1436667811407</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="修改错误">
+      <created>1436695119539</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1436695119539</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1370" height="728" extended-state="0" />
+    <frame x="-3" y="0" width="1370" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -542,7 +394,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -575,22 +426,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/generators/app/templates/_src/utils/_SimpleMailSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generators/app/templates/_src/utils/_PullTip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generators/app/templates/_src/utils/_MyAuthenticator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -975,10 +810,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/generators/app/templates/_src/ui/_AppStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generators/app/templates/_src/ui/_Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.012324">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09225092">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
